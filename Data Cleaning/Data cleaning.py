@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[8]:
-
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -22,51 +19,23 @@ from sklearn.linear_model import LogisticRegression
 import warnings
 warnings.filterwarnings("ignore")
 
-
-# In[9]:
-
-
 pd.set_option('display.max_columns',500)
 pd.set_option('display.max_rows',200)
 df = pd.read_csv("C:/Program Files/R Files/anxiety.csv", encoding = 'ISO-8859-1')
 
-
-# In[10]:
-
-
 df.GAD2
-
-
-# In[11]:
-
 
 df.drop(['S. No.' , 'Timestamp'] , axis = 1 , inplace = True)
 
-
-# In[12]:
-
-
 df.shape
-
-
-# In[13]:
-
 
 df['Hours_streams'] = df['Hours'] + df['streams']
 df.drop(  ((df[df['Hours_streams'] > 115].index) | (df[df['Hours_streams']==0].index)),
                                              axis=0,inplace=True)
 df.GADE.value_counts()
 
-
-# In[14]:
-
-
 df.GADE.fillna(df.GADE.value_counts().index[1] , inplace=True) #1
 df.GADE.value_counts()
-
-
-# In[15]:
-
 
 df.streams.fillna(int(df.streams.mean()) , inplace = True)
 df.Hours.fillna(int(df.Hours.mean()) , inplace = True)
@@ -75,22 +44,10 @@ print(df.League.nunique())
 df.League = df.League.str.lower().str.strip()
 print(df.League.nunique())
 
-
-# In[16]:
-
-
 df["League"] =df["League"].str.extract(r'^([a-z]+)')
 df.League.nunique()
 
-
-# In[17]:
-
-
 df.League.unique()
-
-
-# In[18]:
-
 
 df.loc[(df['whyplay']== 'having fun') ,'League'] =df.loc[(df['whyplay']== 'having fun') ,'League'].fillna('unranked')
 df.League.fillna('gold' , inplace = True)
@@ -123,10 +80,6 @@ df['League'] = df.League.replace('masters' , 'master')
 df['League'] = df.League.replace( ['le', 'legdendary'] , 'legendary')
 df.League.value_counts()
 
-
-# In[19]:
-
-
 counts = df['League'].value_counts()
 df['League'] = df['League'][~df['League'].isin(counts[counts < 3].index)]
 df['League'] = df.League.replace(['i' , 'currently' , 'high' , 'season' , 'lol','cs' ,
@@ -134,15 +87,7 @@ df['League'] = df.League.replace(['i' , 'currently' , 'high' , 'season' , 'lol',
 df.League.fillna('unspecified' , inplace=True)
 df.League.unique()
 
-
-# In[20]:
-
-
 df['Narcissism'].value_counts()
-
-
-# In[21]:
-
 
 df.drop(["Birthplace","Birthplace_ISO3"],axis=1,inplace=True)
 df['Residence'] = df['Residence'].replace('Unknown',df['Residence'].mode()[0])
@@ -162,49 +107,24 @@ df['whyplay'] = df['whyplay'].str.lower().str.strip()
 df['earnings'] = df['earnings'].str.lower().str.strip()
 df['Playstyle'].nunique()
 
-
-# In[22]:
-
-
 df.drop('highestleague' , axis = 1 , inplace = True)
 df.isnull().sum()
-
-
-# In[23]:
-
 
 df.Work.fillna(df.Work.mode()[0] , inplace=True)
 df.drop(['Residence' , 'accept'] , axis = 1 , inplace = True)
 df.dtypes
 
-
-# In[24]:
-
-
 df.earnings.replace(df.earnings.value_counts().index[3:] , 'Other',inplace=True)
 df['earnings'].value_counts()
-
-
-# In[25]:
-
 
 df.whyplay.replace(df.whyplay.value_counts().index[5:] , 'Other',inplace=True)
 df['whyplay'].value_counts()
 
-
-# In[26]:
-
-
 df.Playstyle.replace(df.Playstyle.value_counts().index[5:] , 'Other',inplace=True)
 df['Playstyle'].value_counts()
-
-
-# In[27]:
-
 
 df.Playstyle.replace('Other' , np.nan , inplace=True)
 df.whyplay.replace('Other' , np.nan , inplace=True)
 df.earnings.replace('Other' , np.nan , inplace=True)
 df.dropna(inplace=True)
 df.shape
-
