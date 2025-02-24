@@ -1,32 +1,17 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import pandas as pd
 import plotly as pl
 df = pd.read_csv("C:/Program Files/R Files/anxiety.csv", encoding = 'ISO-8859-1')
 df
 
-
-# In[2]:
-
-
 df.drop(columns=['Timestamp'])
-
-
-# In[4]:
-
 
 from sklearn.preprocessing import LabelEncoder
 label_encoder = LabelEncoder()
 df[df.select_dtypes(include=['object']).columns] = df.select_dtypes(include=['object']).apply(label_encoder.fit_transform)
 df.info()
-
-
-# In[24]:
-
 
 import numpy as np
 import pandas as pd
@@ -49,15 +34,7 @@ sns.heatmap(
 plt.title("Correlation Matrix Heatmap", fontsize=16)
 plt.show()
 
-
-# In[6]:
-
-
 print(df.Age.describe())
-
-
-# In[27]:
-
 
 import numpy as np
 import pandas as pd
@@ -88,15 +65,7 @@ plt.legend(wedges, age_counts['Age'], title="Age Groups", loc="center left", bbo
 plt.title('Age Distribution')
 plt.show()
 
-
-# In[8]:
-
-
 print(df.Gender.describe())
-
-
-# In[33]:
-
 
 import numpy as np
 import pandas as pd
@@ -117,16 +86,8 @@ plt.ylabel("Count", fontsize=12)
 plt.xticks(rotation=0)
 plt.show()
 
-
-# In[ ]:
-
-
 games_counts = df['Game'].value_counts().rename_axis('Game').reset_index(name='count')
 games_counts
-
-
-# In[42]:
-
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -150,22 +111,10 @@ plt.grid(axis='x', linestyle='--', alpha=0.6)
 plt.tight_layout()
 plt.show()
 
-
-# In[43]:
-
-
 platform_counts = df['Platform'].value_counts().rename_axis('platform').reset_index(name='count')
 platform_counts
 
-
-# In[44]:
-
-
 print(df['Hours'].describe())
-
-
-# In[45]:
-
 
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -181,10 +130,6 @@ plt.xlabel("Hours Played")
 plt.ylabel("Residence")
 plt.show()
 
-
-# In[52]:
-
-
 import seaborn as sns
 plt.figure(figsize=(10, 6))
 sns.boxplot(
@@ -197,10 +142,6 @@ plt.xlabel("Age", fontsize=12)
 plt.ylabel("Hours Played", fontsize=12)
 plt.xticks(rotation=45)
 plt.show()
-
-
-# In[48]:
-
 
 import matplotlib.pyplot as plt
 playstyle_counts_sorted = playstyle_counts_df.sort_values(by="Count", ascending=True)
@@ -221,10 +162,3 @@ ax.spines['left'].set_visible(False)
 plt.grid(axis='x', linestyle="--", alpha=0.6)
 plt.tight_layout()
 plt.show()
-
-
-# In[ ]:
-
-
-
-
