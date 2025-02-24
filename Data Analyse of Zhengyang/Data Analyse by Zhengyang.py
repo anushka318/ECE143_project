@@ -3,7 +3,7 @@
 
 import pandas as pd
 import plotly as pl
-df = pd.read_csv("C:/Program Files/R Files/anxiety.csv", encoding = 'ISO-8859-1')
+df = pd.read_csv("./anxiety.csv", encoding = 'ISO-8859-1')
 df
 
 df.drop(columns=['Timestamp'])
