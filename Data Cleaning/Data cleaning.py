@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore")
 
 pd.set_option('display.max_columns',500)
 pd.set_option('display.max_rows',200)
-df = pd.read_csv("C:/Program Files/R Files/anxiety.csv", encoding = 'ISO-8859-1')
+df = pd.read_csv("./anxiety.csv", encoding = 'ISO-8859-1')
 
 df.GAD2
 
