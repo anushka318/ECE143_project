@@ -3,7 +3,7 @@
 # Student Anxiety Analysis and Prediction System
 
 # Team Members:
-Anushka Chaudhary;   Letong Wang;   Jinbo Ma;   Zhengyang Zhou
+Anushka Chaudhary; Letong Wang; Jinbo Ma; Zhengyang Zhou
 
 # Problem:
 This project analyzes student anxiety data to reveal underlying patterns and key triggers.
