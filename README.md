@@ -1,5 +1,8 @@
 # ECE143_project Group 17
 
+# Team members:
+Anushka Chaudhary; Letong Wang; Jinbo Ma; Zhengyang Zhou
+
 # Problem:
 This project analyzes student anxiety data to reveal underlying patterns and key triggers.
 
