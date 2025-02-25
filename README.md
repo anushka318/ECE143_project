@@ -11,7 +11,7 @@ This project analyzes student anxiety data to reveal underlying patterns and key
 # Dataset:
 Kaggle open dataset (https://www.kaggle.com/datasets/petalme/student-anxiety-dataset)
 
-The entire dataset consists of 1csv file containing various information related to student anxiety, including factors contributing to anxiety, its manifestations, and potential mitigating influences. Through this dataset, we can gain deep insights into students' mental health, stress levels, academic pressures, coping strategies, and other related attributes.
+The entire dataset consists of one csv file containing various information related to student anxiety, including factors contributing to anxiety, its manifestations, and potential mitigating influences. Through this dataset, we can gain deep insights into students' mental health, stress levels, academic pressures, coping strategies, and other related attributes.
 
 # Proposed Solution and Real-World Application:
 Our proposed solution focuses on utilizing data preprocessing and exploratory data analysis to study student anxiety, structuring the project into two main phases: data cleaning and data analysis with visualization. 
