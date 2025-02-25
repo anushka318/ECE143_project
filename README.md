@@ -31,23 +31,23 @@ Correlations between mental health scores and gaming behaviors, age, gender and 
 Install the required dependencies:
 
 ```python
-import os
+# Standard Libraries
 import numpy as np
-import plotly as pl
-import string as st
 import pandas as pd
-import seaborn as sns
-import statsmodels.api as sm
 import matplotlib.pyplot as plt
+import seaborn as sns
 
+# Scikit-Learn Components
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder,StandardScaler
-from sklearn.ensemble import RandomForestRegressor,RandomForestClassifier
-from sklearn.linear_model import LinearRegression,Ridge,LogisticRegression
-from sklearn.metrics import r2_score, mean_squared_error,confusion_matrix,accuracy_score,mean_absolute_error
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 
-import warnings
-warnings.filterwarnings("ignore")
+# Machine Learning Models
+from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
+from sklearn.linear_model import LinearRegression, Ridge, LogisticRegression
+
+# Evaluation Metrics
+from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error  # Regression
+from sklearn.metrics import confusion_matrix, accuracy_score  # Classification
 ```
