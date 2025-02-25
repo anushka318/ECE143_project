@@ -1,6 +1,8 @@
-# ECE143_project Group 17
+# ECE143 Final Project Group 17
 
-# Team members:
+# Student Anxiety Analysis and Prediction System
+
+# Team Members:
 Anushka Chaudhary; Letong Wang; Jinbo Ma; Zhengyang Zhou
 
 # Problem:
