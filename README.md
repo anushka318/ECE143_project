@@ -53,6 +53,7 @@ Install the required dependencies:
 # Standard Libraries
 import numpy as np
 import pandas as pd
+import plotly as pl
 import matplotlib.pyplot as plt
 import seaborn as sns
 
