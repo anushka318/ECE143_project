@@ -80,7 +80,7 @@ numpy, pandas, plotly, matplotlib, seaborn and scikit-learn.
 # How To Run
 **Note 1:** The output files (e.g. the cleaned data files and the plots) already exist in the repository, so the following steps are simply to describe the process as if they had not already been generated.
 
-**Note 2:** In the meantime, you have two ways to view the full Python code. You can choose to view the different sections of the .py file step by step. Or choose to run the **Toal Analysis.py** to see all your data analysis at once.
+**Note 2:** In the meantime, you have two ways to view the full Python code. You can choose to view the different sections of the .py file step by step. Or choose to run the **Total Analysis.py** to see all your data analysis at once.
 
 **Step by Step:**
 
