@@ -96,10 +96,11 @@ numpy, pandas, plotly, matplotlib, seaborn and scikit-learn.
 
      You can find all the plots in the **Visualization** file.
 
+  4. **(Selective):** Open the file **Data Analyse of Zhengyang**, run **Data Analyse of Zhengyang.py**. Remember, the file used for this analysis is **anxiety.csv**, because the analysis is mainly oriented to the "game" direction, so the data will be cleaned separately. You can check the demographic distributions with statistical summaries and visualizations, gaming behavior by counting players per game and platform, and investigates gaming hours across different residences and age groups.
 
+     You can find all the plots in the **Visualization** file.
 
-
-**All at once:**
+**All at Once:**
 
 
 
