@@ -39,6 +39,7 @@ print(df.Age.describe())
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+
 age_counts = df['Age'].value_counts().reset_index()
 age_counts.columns = ['Age', 'Count']
 top_n = 10
@@ -71,6 +72,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+
 gender_counts = df['Gender'].value_counts()
 total_count = gender_counts.sum()
 percentages = (gender_counts / total_count * 100).round(2)
@@ -91,6 +93,7 @@ games_counts
 
 import matplotlib.pyplot as plt
 import pandas as pd
+
 games_counts_top = games_counts.head(top_n).copy()
 games_counts_top['Label'] = games_counts_top.apply(lambda row: f"{row['count']} ({row['Percentage']}%)", axis=1)
 max_count = games_counts_top['count'].max()
@@ -118,6 +121,7 @@ print(df['Hours'].describe())
 
 import seaborn as sns
 import matplotlib.pyplot as plt
+
 max_hours_week = 16 * 7
 legit_hour_df = df.query('Hours <= @max_hours_week')
 residence_hours = legit_hour_df.groupby('Residence').Hours.agg(['mean', 'size']).query('Residence != "Unknown" & size >= 100')
@@ -131,6 +135,7 @@ plt.ylabel("Residence")
 plt.show()
 
 import seaborn as sns
+
 plt.figure(figsize=(10, 6))
 sns.boxplot(
     x=legit_hour_df["Age"].astype(int), 
@@ -144,6 +149,7 @@ plt.xticks(rotation=45)
 plt.show()
 
 import matplotlib.pyplot as plt
+
 playstyle_counts_sorted = playstyle_counts_df.sort_values(by="Count", ascending=True)
 colors = plt.cm.Set2(range(len(playstyle_counts_sorted)))
 fig, ax = plt.subplots(figsize=(12, 6))
