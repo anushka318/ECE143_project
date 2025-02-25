@@ -15,7 +15,9 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-df = pd.read_csv("C:/Program Files/R Files/anxiety.csv", encoding='ISO-8859-1')
+
+df = pd.read_csv("./anxiety.csv", encoding='ISO-8859-1')
+
 corr = df.corr()
 mask = np.triu(np.ones_like(corr, dtype=bool))
 plt.figure(figsize=(14, 12))
