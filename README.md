@@ -40,7 +40,7 @@ Our proposed solution focuses on utilizing data preprocessing and exploratory da
 
 **Correlations between mental health scores and gaming behaviors, age, gender and earnings.py /.ipynb:** This code analyzes the relationships between mental health scores (GAD_T, SWL_T, SPIN_T), gaming behaviors, and demographic factors. It trains RandomForestRegressor models to predict these scores, generates a random sample for prediction, and evaluates feature correlations. Additionally, it performs multiple linear regression to assess the impact of gaming and demographics on mental health, visualizes gender-based distributions and explores trends using scatter plots.
 
-**Data Analyse by Zhengyang (Additional Analysis!):** This part of the data analysis uses **anxiety.csv**, primarily analyzes **gaming-related data**, performing preprocessing, exploratory data analysis (EDA), and visualizations. It examines demographics, gaming habits, playstyles, and their correlations using statistical summaries, heatmaps and various plots.
+**Data Analyse by Zhengyang.py /.ipynb (Additional Analysis!):** This part of the data analysis uses **anxiety.csv**, primarily analyzes **gaming-related data**, performing preprocessing, exploratory data analysis (EDA), and visualizations. It examines demographics, gaming habits, playstyles, and their correlations using statistical summaries, heatmaps and various plots.
 
 # Setup
 Install the required dependencies:
