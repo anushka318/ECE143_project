@@ -80,7 +80,7 @@ The third-party modules we used include:
 # How To Run
 **Note 1:** The output files (e.g. the cleaned data files and the plots) already exist in the repository, so the following steps are simply to describe the process as if they had not already been generated.
 
-**Note 2:** In the meantime, you have two ways to view the full Python code. You can choose to view the different sections of the files and run them step by step. Or choose to run the **Total Analysis.py** to see all the data analysis at one time.
+**Note 2:** In the meantime, you have two ways to view the full Python code. You can choose to view the different sections of the files and run them step by step. Or choose to run the **Main Analysis.py** to see all the data analysis at one time.
 
 **Step by Step:**
 
