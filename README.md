@@ -75,6 +75,6 @@ from sklearn.metrics import confusion_matrix, accuracy_score  # Classification
 # Third-party modules
 The third-party modules we used include:
 
-numpy, pandas, matplotlib, seaborn and scikit-learn.
+numpy, pandas, plotly, matplotlib, seaborn and scikit-learn.
 
 # How To Run
