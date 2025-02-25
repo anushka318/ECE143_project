@@ -1,0 +1,84 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[19]:
+
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+
+
+# In[8]:
+
+
+df_encoded = pd.read_csv("C:/Program Files/R Files/cleaned_data.csv")
+df_encoded
+
+
+# In[9]:
+
+
+X = df_encoded.drop(columns=["GAD_T", "SWL_T", "SPIN_T"])  # 预测 SWL_T
+y = df_encoded["SWL_T"]
+
+
+# In[10]:
+
+
+X = X.apply(lambda col: LabelEncoder().fit_transform(col) if col.dtype == 'object' else col)
+if y.dtype == 'object':
+    y = LabelEncoder().fit_transform(y)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+
+# In[11]:
+
+
+model = RandomForestRegressor(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
+
+
+# In[12]:
+
+
+y_pred = model.predict(X_test[:5])
+y_pred = [round(value, 2) for value in y_pred]
+print("\nSWL_T prediction:", np.round(y_pred, 2))
+
+
+# In[17]:
+
+
+feature_importances = model.feature_importances_
+feature_names = X.columns
+indices = np.argsort(feature_importances)[::-1]
+sorted_features = [feature_names[i] for i in indices]
+sorted_importances = feature_importances[indices]
+top_features = list(zip(sorted_features[:10], sorted_importances[:10]))
+print("Top 10 most important features affecting SWL_T:")
+for feature, importance in top_features:
+    print(f"{feature}: {importance:.4f}")
+
+
+# In[18]:
+
+
+plt.figure(figsize=(10, 6))
+plt.barh(sorted_features[:10], sorted_importances[:10], color='skyblue')
+plt.xlabel("Feature Importance")
+plt.ylabel("Feature")
+plt.title("Top 10 Features Affecting SWL_T (Life Satisfaction Score)")
+plt.gca().invert_yaxis()
+plt.show()
+
+
+# In[ ]:
+
+
+
+
