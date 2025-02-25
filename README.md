@@ -84,11 +84,11 @@ The third-party modules we used include:
 
 **Step by Step:**
 
-  **1.** First, navigate to the ECE143-Project directory.
+  1. First, navigate to the ECE143-Project directory.
 
-  **2.** Then Open the file **Data Cleaning**, run **Data cleaning.py**  to create cleaned and combined CSV files. You will get **cleaned_data.csv**.
+  2. Then Open the file **Data Cleaning**, run **Data cleaning.py**  to create cleaned and combined CSV files. You will get **cleaned_data.csv**.
 
-  **3.** Open the file **Prediction**, run **GAD_T.py**, **SPIN_T.py** and **SWL_T.py** to check the prediction and influencing factor analysis of GAD_T, SPIN_T and SWL_T.
+  3. Open the file **Prediction**, run **GAD_T.py**, **SPIN_T.py** and **SWL_T.py** to check the prediction and influencing factor analysis of GAD_T, SPIN_T and SWL_T.
 
      Run **Correlation between SPIN_T, GAD_T and SWL_T.py** to get the correlation between social anxiety (SPIN_T), generalized anxiety (GAD_T), and life satisfaction (SWL_T).
 
@@ -96,7 +96,7 @@ The third-party modules we used include:
 
      You can find all the plots in the **Visualization** file.
 
-  **4. (Selective):** Open the file **Data Analyse of Zhengyang**, run **Data Analyse of Zhengyang.py**. Remember, the file used for this analysis is **anxiety.csv**, because the analysis is mainly oriented to the "game" direction, so the data will be cleaned separately. You can check the demographic distributions with statistical summaries and visualizations, gaming behavior by counting players per game and platform, and investigates gaming hours across different residences and age groups.
+  4. **(Selective):** Open the file **Data Analyse of Zhengyang**, run **Data Analyse of Zhengyang.py**. Remember, the file used for this analysis is **anxiety.csv**, because the analysis is mainly oriented to the "game" direction, so the data will be cleaned separately. You can check the demographic distributions with statistical summaries and visualizations, gaming behavior by counting players per game and platform, and investigates gaming hours across different residences and age groups.
 
      You can find all the plots in the **Visualization** file.
 
