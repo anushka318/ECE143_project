@@ -1,8 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 import pandas as pd
 import plotly as pl
+
 df = pd.read_csv("./anxiety.csv", encoding = 'ISO-8859-1')
 df
 
