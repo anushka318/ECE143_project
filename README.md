@@ -76,6 +76,4 @@ The third-party modules we used include:
 
 numpy, pandas, matplotlib, seaborn and scikit-learn.
 
-# What We Did in the Project
-
 # How To Run
