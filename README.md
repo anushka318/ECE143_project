@@ -30,6 +30,7 @@ Correlations between mental health scores and gaming behaviors, age, gender and 
 # Setup
 Install the required dependencies:
 
+```python
 import os
 import numpy as np
 import plotly as pl
@@ -49,3 +50,4 @@ from sklearn.metrics import r2_score, mean_squared_error,confusion_matrix,accura
 
 import warnings
 warnings.filterwarnings("ignore")
+```
