@@ -78,5 +78,29 @@ The third-party modules we used include:
 numpy, pandas, plotly, matplotlib, seaborn and scikit-learn.
 
 # How To Run
+**Note 1:** The output files (e.g. the cleaned data files and the plots) already exist in the repository, so the following steps are simply to describe the process as if they had not already been generated.
+
+**Note 2:** In the meantime, you have two ways to view the full Python code. You can choose to view the different sections of the .py file step by step. Or choose to run the **Toal Analysis.py** to see all your data analysis at once.
+
+**Step by Step:**
+
+  1. First, navigate to the ECE143-Project directory.
+
+  2. Then Open the file **Data Cleaning**, run **Data cleaning.py**  to create cleaned and combined CSV files. You will get **cleaned_data.csv**.
+
+  3. Open the file **Prediction**, run **GAD_T.py**, **SPIN_T.py** and **SWL_T.py** to check the prediction and influencing factor analysis of GAD_T, SPIN_T and SWL_T.
+
+     Run **Correlation between SPIN_T, GAD_T and SWL_T.py** to get the correlation between social anxiety (SPIN_T), generalized anxiety (GAD_T), and life satisfaction (SWL_T).
+
+     Run **Correlations between mental health scores and gaming behaviors, age, gender and earnings.py** to find the relationships between mental health scores (GAD_T, SWL_T, SPIN_T), gaming behaviors, and demographic factors.
+
+     You can find all the plots in the **Visualization** file.
+
+
+
+
+**All at once:**
+
+
 
 # Result, Conlusion and Suggestions
