@@ -32,19 +32,19 @@ The real-world applications of this project include early intervention, where ed
 # Main Analysis Notebooks
 **Attention: All python files are stored in both .py and .ipynb forms with the same file name.**
 
-**Data cleaning.py /.ipynb:** In this data processing task, we systematically cleaned the raw data by identifying and removing inconsistencies, filling in missing values using appropriate imputation methods and standardizing the data to maintain uniformity across all variables. 
+**1. Data cleaning.py /.ipynb:** In this data processing task, we systematically cleaned the raw data by identifying and removing inconsistencies, filling in missing values using appropriate imputation methods and standardizing the data to maintain uniformity across all variables. 
 
-**GAD_T.py /.ipynb:** This analysis uses RandomForestRegressor to predict GAD_T scores and identify key influencing factors. It preprocesses data, trains the model, makes predictions and analyzes feature importance.
+**2. GAD_T.py /.ipynb:** This analysis uses RandomForestRegressor to predict GAD_T scores and identify key influencing factors. It preprocesses data, trains the model, makes predictions and analyzes feature importance.
 
-**SPIN_T.py /.ipynb:** This analysis uses RandomForestRegressor to predict social anxiety scores (SPIN_T) and identify key influencing factors. It preprocesses the data, trains the model, makes predictions and analyzes feature importance, highlighting the top factors affecting SPIN_T.
+**3. SPIN_T.py /.ipynb:** This analysis uses RandomForestRegressor to predict social anxiety scores (SPIN_T) and identify key influencing factors. It preprocesses the data, trains the model, makes predictions and analyzes feature importance, highlighting the top factors affecting SPIN_T.
 
-**SWL_T.py /.ipynb:** This analysis uses RandomForestRegressor to predict life satisfaction scores (SWL_T) and analyze key influencing factors. It preprocesses the data, trains the model, makes predictions and evaluates feature importance, highlighting the top variables affecting SWL_T.
+**4. SWL_T.py /.ipynb:** This analysis uses RandomForestRegressor to predict life satisfaction scores (SWL_T) and analyze key influencing factors. It preprocesses the data, trains the model, makes predictions and evaluates feature importance, highlighting the top variables affecting SWL_T.
 
-**Correlation between SPIN_T, GAD_T and SWL_T.py /.ipynb:** This code analyzes the correlation between social anxiety (SPIN_T), generalized anxiety (GAD_T), and life satisfaction (SWL_T). It calculates and prints the correlation matrix, visualizes it using a heatmap, and generates pair plots to explore relationships between these variables.
+**5. Correlation between SPIN_T, GAD_T and SWL_T.py /.ipynb:** This code analyzes the correlation between social anxiety (SPIN_T), generalized anxiety (GAD_T), and life satisfaction (SWL_T). It calculates and prints the correlation matrix, visualizes it using a heatmap, and generates pair plots to explore relationships between these variables.
 
-**Correlations between mental health scores and gaming behaviors, age, gender and earnings.py /.ipynb:** This code analyzes the relationships between mental health scores (GAD_T, SWL_T, SPIN_T), gaming behaviors, and demographic factors. It trains RandomForestRegressor models to predict these scores, generates a random sample for prediction, and evaluates feature correlations. Additionally, it performs multiple linear regression to assess the impact of gaming and demographics on mental health, visualizes gender-based distributions and explores trends using scatter plots.
+**6. Correlations between mental health scores and gaming behaviors, age, gender and earnings.py /.ipynb:** This code analyzes the relationships between mental health scores (GAD_T, SWL_T, SPIN_T), gaming behaviors, and demographic factors. It trains RandomForestRegressor models to predict these scores, generates a random sample for prediction, and evaluates feature correlations. Additionally, it performs multiple linear regression to assess the impact of gaming and demographics on mental health, visualizes gender-based distributions and explores trends using scatter plots.
 
-**Data Analyse by Zhengyang.py /.ipynb (Additional Analysis!):** This part of the data analysis uses **anxiety.csv**, primarily analyzes **gaming-related data**, performing preprocessing, exploratory data analysis (EDA), and visualizations. It examines demographics, gaming habits, playstyles, and their correlations using statistical summaries, heatmaps and various plots.
+**7. Data Analyse by Zhengyang.py /.ipynb (Additional Analysis!):** This part of the data analysis uses **anxiety.csv**, primarily analyzes **gaming-related data**, performing preprocessing, exploratory data analysis (EDA), and visualizations. It examines demographics, gaming habits, playstyles, and their correlations using statistical summaries, heatmaps and various plots.
 
 # Setup
 Install the required dependencies:
