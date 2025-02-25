@@ -23,9 +23,9 @@ SPIN_T.py /.ipynb: This analysis uses RandomForestRegressor to predict social an
 
 SWL_T.py /.ipynb: This analysis uses RandomForestRegressor to predict life satisfaction scores (SWL_T) and analyze key influencing factors. It preprocesses the data, trains the model, makes predictions, and evaluates feature importance, highlighting the top variables affecting SWL_T.
 
-Correlation between SPIN_T, GAD_T and SWL_T.py /.ipynb: This code analyzes the correlation between social anxiety (SPIN_T), generalized anxiety (GAD_T), and life satisfaction (SWL_T). It calculates and prints the correlation matrix, visualizes it using a heatmap, and generates pair plots to explore relationships between these variables.
+**Correlation between SPIN_T, GAD_T and SWL_T.py /.ipynb:** This code analyzes the correlation between social anxiety (SPIN_T), generalized anxiety (GAD_T), and life satisfaction (SWL_T). It calculates and prints the correlation matrix, visualizes it using a heatmap, and generates pair plots to explore relationships between these variables.
 
-Correlations between mental health scores and gaming behaviors, age, gender and earnings.py /.ipynb: This code analyzes the relationships between mental health scores (GAD_T, SWL_T, SPIN_T), gaming behaviors, and demographic factors. It trains RandomForestRegressor models to predict these scores, generates a random sample for prediction, and evaluates feature correlations. Additionally, it performs multiple linear regression to assess the impact of gaming and demographics on mental health, visualizes gender-based distributions, and explores trends using scatter plots.
+**Correlations between mental health scores and gaming behaviors, age, gender and earnings.py /.ipynb:** This code analyzes the relationships between mental health scores (GAD_T, SWL_T, SPIN_T), gaming behaviors, and demographic factors. It trains RandomForestRegressor models to predict these scores, generates a random sample for prediction, and evaluates feature correlations. Additionally, it performs multiple linear regression to assess the impact of gaming and demographics on mental health, visualizes gender-based distributions, and explores trends using scatter plots.
 
 # Setup
 Install the required dependencies:
@@ -51,3 +51,7 @@ from sklearn.linear_model import LinearRegression, Ridge, LogisticRegression
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error  # Regression
 from sklearn.metrics import confusion_matrix, accuracy_score  # Classification
 ```
+
+# Third-party modules
+The third-party modules we used include:
+numpy, pandas, matplotlib, seaborn, scikit-learn.
