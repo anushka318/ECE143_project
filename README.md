@@ -1,4 +1,4 @@
-# ECE143_project
+# ECE143_project Group 17
 
 # Problem:
 This project analyzes student anxiety data to reveal underlying patterns and key triggers.
@@ -13,15 +13,15 @@ Our proposed solution focuses on utilizing data preprocessing and exploratory da
 # File Structure / Running each file with main method to get data
 
 # Main Analysis Notebooks
-Attention: All python files are stored in both .py and .ipynb forms with the same file name.
+**Attention: All python files are stored in both .py and .ipynb forms with the same file name.**
 
-Data cleaning.py /.ipynb: In this data processing task, we systematically cleaned the raw data by identifying and removing inconsistencies, filling in missing values using appropriate imputation methods, and standardizing the data to maintain uniformity across all variables. 
+**Data cleaning.py /.ipynb:** In this data processing task, we systematically cleaned the raw data by identifying and removing inconsistencies, filling in missing values using appropriate imputation methods, and standardizing the data to maintain uniformity across all variables. 
 
-GAD_T.py /.ipynb: This analysis uses RandomForestRegressor to predict GAD_T scores and identify key influencing factors. It preprocesses data, trains the model, makes predictions, and analyzes feature importance.
+**GAD_T.py /.ipynb:** This analysis uses RandomForestRegressor to predict GAD_T scores and identify key influencing factors. It preprocesses data, trains the model, makes predictions, and analyzes feature importance.
 
-SPIN_T.py /.ipynb: This analysis uses RandomForestRegressor to predict social anxiety scores (SPIN_T) and identify key influencing factors. It preprocesses the data, trains the model, makes predictions, and analyzes feature importance, highlighting the top factors affecting SPIN_T.
+**SPIN_T.py /.ipynb:** This analysis uses RandomForestRegressor to predict social anxiety scores (SPIN_T) and identify key influencing factors. It preprocesses the data, trains the model, makes predictions, and analyzes feature importance, highlighting the top factors affecting SPIN_T.
 
-SWL_T.py /.ipynb: This analysis uses RandomForestRegressor to predict life satisfaction scores (SWL_T) and analyze key influencing factors. It preprocesses the data, trains the model, makes predictions, and evaluates feature importance, highlighting the top variables affecting SWL_T.
+**SWL_T.py /.ipynb:** This analysis uses RandomForestRegressor to predict life satisfaction scores (SWL_T) and analyze key influencing factors. It preprocesses the data, trains the model, makes predictions, and evaluates feature importance, highlighting the top variables affecting SWL_T.
 
 **Correlation between SPIN_T, GAD_T and SWL_T.py /.ipynb:** This code analyzes the correlation between social anxiety (SPIN_T), generalized anxiety (GAD_T), and life satisfaction (SWL_T). It calculates and prints the correlation matrix, visualizes it using a heatmap, and generates pair plots to explore relationships between these variables.
 
