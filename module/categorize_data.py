@@ -83,6 +83,23 @@ def categorize_age(age):
     else:
         return 'Old'
     
+def categorize_playstyles(playstyle):
+    '''
+    Categorizing playstyles as follows:
+    singleplayer: S
+    multiplayer  online  with stranger: M_0
+    multiplayer  online  with online acquaintances or teammates : M_1
+    multiplayer  online  with real life friends :M_2
+    '''
+    if playstyle == 'singleplayer':
+        return 'S'
+    elif playstyle == 'multiplayer  online  with stranger':
+        return 'M_0'
+    elif playstyle == 'multiplayer  online  with online acquaintances or teammates':
+        return 'M_1'
+    elif playstyle == 'multiplayer  online  with real life friends':
+        return 'M_2'
+    
 def categorize_data(df):
     '''
     Categorizing the data based on the following columns:
@@ -91,5 +108,6 @@ def categorize_data(df):
     df['Social_phobia'] = df['SPIN_T'].apply(social_phobia_inventory) 
     df['SWL'] = df['SWL_T'].apply(swl)
     df['Employment'] = df['Work'].apply(categorize_employment)
-    df['Age'] = df['Age'].apply(categorize_age)
+    df['Age_groups'] = df['Age'].apply(categorize_age)
+    df['Play'] = df['Playstyle'].apply(categorize_playstyles)
     return df
