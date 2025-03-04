@@ -79,21 +79,15 @@ The third-party modules we used include:
 # How To Run
 **Note 1:** The output files (e.g. the cleaned data files and the plots) already exist in the repository, so the following steps are simply to describe the process as if they had not already been generated.
 
-**Note 2:** In the meantime, there are two ways to view the full Python code. You can choose to view the different sections of the files and run them step by step. Or choose to run the **Main Analysis.py** to see all the data analysis at one time.
-
-**Step by Step:**
+**Note 2:** In the meantime, there are two ways to view the full Python code. You can choose to view the different sections of the files and run them step by step. Or choose to run the **Analysis.ipynb** to see all the data analysis at one time. However, it should be noted that due to the time constraints of the presentation, **Analysis.ipynb** does not include all of our analysis results and only covers the key parts.
 
   1. First, navigate to the ECE143-Project directory.
 
   2. Then Open the file **Data Cleaning**, run **Data cleaning.py**  to create cleaned and combined CSV files. You will get **cleaned_data.csv**.
 
-  3. Run the **Analysis.ipynb** file in Analysis Notebook directory.
+  3. Open the file **Analysis_notebook**, run the **Analysis.ipynb** file in Analysis Notebook directory.
 
      You can find all the plots in the **Visualization** file.
-
-**All at Once:**
-
-
 
 # Result, Conlusion and Suggestions
 Analysis has been conducted to answer the following questions:
