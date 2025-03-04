@@ -3,7 +3,10 @@
 # Student Anxiety Analysis and Prediction System
 
 # Team Members:
-Anushka Chaudhary; Letong Wang; Jinbo Ma; Zhengyang Zhou
+Anushka Chaudhary anchaudhary@ucsd.edu
+Letong Wang lew030@ucsd.edu
+Jinbo Ma jim031@ucsd.edu
+Zhengyang Zhou zhz179@ucsd.edu
 
 # Problem:
 This project analyzes student anxiety data to reveal underlying patterns and key triggers.
@@ -89,30 +92,30 @@ The third-party modules we used include:
 
      You can find all the plots in the **Visualization** file.
 
-# Result, Conlusion and Suggestions
+# Qustions, Results, Conlusion and Suggestions
 Analysis has been conducted to answer the following questions:
 
 **1. What are some of the most popular games played by std?**
 
 **2. What is the relationship between GAD and Satisfaction with Life (SWL)?**
-  A negative correlation is observed, indicating that higher anxiety levels are associated with lower life satisfaction.
+A negative correlation is observed, indicating that higher anxiety levels are associated with lower life satisfaction.
 
 **3. Does degree level impact Satisfaction with Life (SWL)?**
-  SWL score does seem to be higher for people witha PhD/Master's degree.
+SWL score does seem to be higher for people witha PhD/Master's degree.
 
 **4. How does area of residence affect the hours of gaming?**
 
 **5. How does gaming playstyle relate to Social Phobia Inventory (SPIN) scores?**
-  Solo gamers tend to have higher SPIN scores, suggesting a possible link between social anxiety and a preference for single-player games.
+Solo gamers tend to have higher SPIN scores, suggesting a possible link between social anxiety and a preference for single-player games.
 
 **6. What is the distribution of gaming hours across different GAD levels?**
-  Individuals with higher GAD scores show mixed gaming habits, with no clear trend indicating whether gaming increases or reduces anxiety.
+Individuals with higher GAD scores show mixed gaming habits, with no clear trend indicating whether gaming increases or reduces anxiety.
 
 **7. Do people with higher SPIN scores have different satisfaction with life (SWL)?**
-  A negative relationship is observed; those with higher social anxiety (SPIN) tend to have lower satisfaction with life.
+A negative relationship is observed; those with higher social anxiety (SPIN) tend to have lower satisfaction with life.
 
-**8. How do SPIN, SWL, and GAD scores vary with employmen status**
+**8. How do SPIN, SWL, and GAD scores vary with employmen status?**
 
-**9. How does anxiety and satisfaction with life as we consider indviduals from different age groups**
+**9. How does anxiety and satisfaction with life as we consider indviduals from different age groups?**
 
-**10. How do all these factors correlate with each other? Basically,  where do we focus on for reduces GAD,SPIN and higher SWL scores**
+**10. How do all these factors correlate with each other? Basically,  where do we focus on for reduces GAD,SPIN and higher SWL scores?**
