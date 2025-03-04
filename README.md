@@ -59,7 +59,6 @@ import plotly as pl
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
 # Scikit-Learn Components
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
