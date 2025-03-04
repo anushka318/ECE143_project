@@ -44,7 +44,7 @@ The real-world applications of this project include early intervention, where ed
 
 **1. Data cleaning.py /.ipynb:** In this data processing task, we systematically cleaned the raw data by identifying and removing inconsistencies, filling in missing values using appropriate imputation methods and standardizing the data to maintain uniformity across all variables. 
 
-**2. Analysis /.ipynb:** This  Notebook explores the relationships between various factors in a survey dataset. The analysis examines how gaming habits and personal characteristics correlate with mental health indicators such as Generalized Anxiety Disorder (GAD) scores, Satisfaction with Life (SWL), and Social Phobia Inventory (SPIN) scores. Specifically, the notebook investigates the impact of games played, degree level, area of residence, and gaming playstyle on these psychological factors.
+**2. Analysis.py /.ipynb:** This  Notebook explores the relationships between various factors in a survey dataset. The analysis examines how gaming habits and personal characteristics correlate with mental health indicators such as Generalized Anxiety Disorder (GAD) scores, Satisfaction with Life (SWL), and Social Phobia Inventory (SPIN) scores. Specifically, the notebook investigates the impact of games played, degree level, area of residence, and gaming playstyle on these psychological factors.
 
 # Setup
 Install the required dependencies:
@@ -86,7 +86,7 @@ The third-party modules we used include:
 
 **Note 2:** In the meantime, there are two ways to view the full Python code. You can choose to view the different sections of the files and run them step by step. Or choose to run the **Analysis.ipynb** to see all the data analysis at one time. However, it should be noted that due to the time constraints of the presentation, **Analysis.ipynb** does not include all of our analysis results and only covers the key parts.
 
-  1. First, navigate to the ECE143-Project directory.
+  1. First, navigate to the **ECE143-Project** directory.
 
   2. Then Open the file **Data Cleaning**, run **Data cleaning.py**  to create cleaned and combined CSV files. You will get **cleaned_data.csv**.
 
