@@ -4,8 +4,11 @@
 
 # Team Members:
 Anushka Chaudhary anchaudhary@ucsd.edu
+
 Letong Wang lew030@ucsd.edu
+
 Jinbo Ma jim031@ucsd.edu
+
 Zhengyang Zhou zhz179@ucsd.edu
 
 # Problem:
