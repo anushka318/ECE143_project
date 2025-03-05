@@ -21,7 +21,7 @@ The entire dataset consists of one csv file containing various information relat
 
 Secondary dataset (https://www.kaggle.com/datasets/carlsonhoo/university-social-anxiety-survey/data)
 
-The objective of this dataset is to understand the social anxiety condition for student. The dataset were collected via google form and export to csv files.
+The objective of this dataset is to understand the social anxiety condition for student. The dataset were collected via google form and export to csv files. We use this for joint analysis with the main dataset.
 
 # Proposed Solution and Real-World Application:
 Our proposed solution focuses on utilizing data preprocessing and exploratory data analysis to study student anxiety, structuring the project into two main phases: data cleaning and data analysis with visualization. 
