@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = "C:/Program Files/R Files/Social_Anxiety_Survey_Master.csv"
+file_path = "./Social_Anxiety_Survey_Master.csv"
 df = pd.read_csv(file_path, encoding="utf-8-sig", skipinitialspace=True)
 df
 
