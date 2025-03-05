@@ -33,9 +33,9 @@ The real-world applications of this project include early intervention, where ed
 
 **3. Indvidual Analysis:** It mainly includes the extended data analysis independently conducted by Zhengyang Zhou and Letong Wang, relating to getting familiar with the data and finding correlations bewteen factors. It includes prediction and influencing factor analysis of GAD_T, SPIN_T and SWL_T (PDF with explanations), analysis of the interaction of GAD_T, SPIN_T and SWL_T (PDF with explanations), and analysis of the impact of GAD_T, SPIN_T and SWL_T against gaming behaviors, age, gender and earnings (PDF with explanations).
 
-**4.module** This has the python modules used for visualization, and categorizing data.
+**4. module:** This has the python modules used for visualization, and categorizing data.
 
-**5.Analysis notebook**: The notebook with final analysis.
+**5. Analysis notebook:** The notebook with final analysis.
 
 **6. Visualization:** This has the images of all the visualizations from the data analysis.
 
