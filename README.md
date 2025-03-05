@@ -19,6 +19,10 @@ Kaggle open dataset (https://www.kaggle.com/datasets/petalme/student-anxiety-dat
 
 The entire dataset consists of one csv file containing various information related to student anxiety, including factors contributing to anxiety, its manifestations, and potential mitigating influences. Through this dataset, we can gain deep insights into students' mental health, stress levels, academic pressures, coping strategies, and other related attributes.
 
+Secondary dataset (https://www.kaggle.com/datasets/carlsonhoo/university-social-anxiety-survey/data)
+
+The objective of this dataset is to understand the social anxiety condition for student. The dataset were collected via google form and export to csv files.
+
 # Proposed Solution and Real-World Application:
 Our proposed solution focuses on utilizing data preprocessing and exploratory data analysis to study student anxiety, structuring the project into two main phases: data cleaning and data analysis with visualization. 
 
@@ -27,7 +31,7 @@ The primary objective is to develop interactive visualizations and dashboards th
 The real-world applications of this project include early intervention, where educators and mental health professionals can leverage these insights to identify high-risk students and implement timely support measures; policy-making, which involves analyzing key contributing factors to student anxiety to inform and refine school policies and mental health programs; and resource allocation, ensuring that mental health resources and support systems are distributed optimally based on data-driven insights.
 
 # File Structure
-**1. Data:** It contains the original dataset (**anxiety.csv**) and the output dataset (**cleaned_data.csv**) after the cleaning is completed.
+**1. Data:** It contains the original dataset (**anxiety.csv**), the output dataset (**cleaned_data.csv**) after the cleaning is completed and the secondary dataset (**Social_Anxiety_Survey_Master.csv**).
 
 **2. Data Cleaning:** It is mainly used for data cleaning, which contains a PDF file with a detailed explanation of the data cleaning process and a dataset (cleaned_data) output after the cleaning is completed.
 
