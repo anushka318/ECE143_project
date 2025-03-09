@@ -30,8 +30,7 @@ The primary objective is to develop interactive visualizations and dashboards th
 
 The real-world applications of this project include early intervention, where educators and mental health professionals can leverage these insights to identify high-risk students and implement timely support measures; policy-making, which involves analyzing key contributing factors to student anxiety to inform and refine school policies and mental health programs; and resource allocation, ensuring that mental health resources and support systems are distributed optimally based on data-driven insights.
 
-# File Structure
-
+# File Structure:
 ```
 📂 Analysis_notebook
   └── 📄 analysis.ipynb
@@ -90,14 +89,14 @@ The real-world applications of this project include early intervention, where ed
 
 **6. Visualization:** This has the images of all the visualizations from the data analysis.
 
-# Main Analysis Notebooks
+# Main Analysis Notebooks:
 **Attention: All python files are stored in both .py and .ipynb forms with the same file name.**
 
 **1. Data cleaning.py /.ipynb:** In this data processing task, we systematically cleaned the raw data by identifying and removing inconsistencies, filling in missing values using appropriate imputation methods and standardizing the data to maintain uniformity across all variables. 
 
 **2. Analysis.py /.ipynb:** This  Notebook explores the relationships between various factors in a survey dataset. The analysis examines how gaming habits and personal characteristics correlate with mental health indicators such as Generalized Anxiety Disorder (GAD) scores, Satisfaction with Life (SWL), and Social Phobia Inventory (SPIN) scores. Specifically, the notebook investigates the impact of games played, degree level, area of residence, and gaming playstyle on these psychological factors.
 
-# Setup
+# Setup:
 Install the required dependencies:
 
 ```python
@@ -129,12 +128,12 @@ from sklearn.metrics import confusion_matrix, accuracy_score  # Classification
 from wordcloud import WordCloud
 ```
 
-# Third-party modules
+# Third-party modules:
 The third-party modules we used include:
 
 **numpy**, **pandas**, **plotly**, **matplotlib**, **seaborn**, **wordcloud**, and **scikit-learn**.
 
-# How To Run
+# How To Run:
 **Note 1:** The output files (e.g. the cleaned data files and the plots) already exist in the repository, so the following steps are simply to describe the process as if they had not already been generated.
 
 **Note 2:** In the meantime, there are two ways to view the full Python code. You can choose to view the different sections of the files and run them step by step **(Highly recommended!!!)**. Or choose to run the **Analysis.py** to see all the data analysis at one time. However, it should be noted that due to the time constraints of the presentation, **Analysis.py** does not include all of our analysis results and only covers the key parts.
@@ -147,7 +146,7 @@ The third-party modules we used include:
 
      You can find all the plots in the **Visualization** file.
 
-# Qustions, Results, Conlusion and Suggestions
+# Qustions, Results, Conlusion and Suggestions:
 Analysis has been conducted to answer the following questions:
 
 **1. What are some of the most popular games played by std?**
