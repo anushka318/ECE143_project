@@ -3,13 +3,13 @@
 # Student Anxiety Analysis and Prediction System
 
 # Team Members:
-Anushka Chaudhary anchaudhary@ucsd.edu
+Anushka Chaudhary: anchaudhary@ucsd.edu
 
-Letong Wang lew030@ucsd.edu
+Letong Wang: lew030@ucsd.edu
 
-Jinbo Ma jim031@ucsd.edu
+Jinbo Ma: jim031@ucsd.edu
 
-Zhengyang Zhou zhz179@ucsd.edu
+Zhengyang Zhou: zhz179@ucsd.edu
 
 # Problem:
 This project analyzes student anxiety data to reveal underlying patterns and key triggers.
@@ -180,4 +180,4 @@ A negative relationship is observed; those with higher social anxiety (SPIN) ten
 
 **9. How does anxiety and satisfaction with life as we consider indviduals from different age groups?**
 
-**10. How do all these factors correlate with each other? Basically,  where do we focus on for reduces GAD,SPIN and higher SWL scores?**
+**10. How do all these factors correlate with each other? Basically,  where do we focus on for reduces GAD, SPIN and higher SWL scores?**
