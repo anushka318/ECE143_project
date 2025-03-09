@@ -57,6 +57,9 @@ The real-world applications of this project include early intervention, where ed
       └── 📄 prediction_swl.py
   ├── 📂 Data Analyse of Zhengyang
     ├── 📂 Visualization
+      ├── 📄 Age Distribution.png
+              ⋮
+      └── 📄 Top Games by Count.png
     ├── 📄 Data Analyse by Zhengyang.ipynb
     └── 📄 Data Analyse by Zhengyang.py
   ├── 📂 Pridiction
