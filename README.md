@@ -35,31 +35,47 @@ The real-world applications of this project include early intervention, where ed
 📂 Analysis_notebook
   ├── 📄 analysis.ipynb
 📂 Data Cleaning
-  ├── 📄 Data Cleaning for Secondary Da...
-  ├── 📄 Data Cleaning.ipynb
-  ├── 📄 Data Cleaning.pdf
+  ├── 📄 Data Cleaning for Secondary Dataset.py
+          ⋮
   ├── 📄 Data Cleaning.py
 📂 Data
   ├── 📄 StressLevelDataset.csv
   ├── 📄 anxiety.csv
   ├── 📄 cleaned_data.csv
 📂 Indvidual_analysis
-  ├── 📂Data Analyse of Letong
-    ├── 📂data analysis
-    ├── 📂data cleaning
-    ├── 📂prediction
-  ├── 📄
-  ├── 📄
-  ├── 📄
-  ├── 📄
-  ├── 📄
+  ├── 📂 Data Analyse of Letong
+    ├── 📂 data analysis
+      ├── 📄 data analysis.ipynb
+      ├── 📄 data analysis.py
+    ├── 📂 data cleaning
+      ├── 📄 data cleaning.ipynb
+      ├── 📄 data cleaning.py
+      ├── 📄 cleaned_data.csv
+    ├── 📂 prediction
+      ├── 📄 prediction_GAD.ipynb
+              ⋮
+      ├── 📄 prediction_swl.py
+  ├── 📂 Data Analyse of Zhengyang
+    ├── 📂 Visualization
+    ├── 📄 Data Analyse by Zhengyang.ipynb
+    ├── 📄 Data Analyse by Zhengyang.py
+  ├── 📂 Pridiction
+    ├── 📄 Correlation between SPIN_T, GAD_T and SWL_T.py
+            ⋮
+    ├── 📄 SWL_T.py
+  ├── 📂 images
+    ├── 📄anxiety_age_employment.png
+    ├── 📄anxiety_satisfaction.png
+├── 📂 Visualization
+    ├── 📄 Age.png
+            ⋮
+    ├── 📄 WordCloud.png
+├── 📂 module
+    ├── 📄 categorize_data.py
+    ├── 📄 visualization.py
+├── 📄 .gitignore
+├── 📄 README.md
 ```
-
-
-
-
-
-
 **1. Data:** It contains the original dataset (**anxiety.csv**), the output dataset (**cleaned_data.csv**) after the cleaning is completed and the secondary dataset (**StressLevelDataset.csv**).
 
 **2. Data Cleaning:** It is mainly used for data cleaning, which contains a PDF file with a detailed explanation of the data cleaning process and a dataset (cleaned_data) output after the cleaning is completed.
