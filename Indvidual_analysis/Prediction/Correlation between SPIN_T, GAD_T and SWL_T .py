@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-df_encoded = pd.read_csv("C:/Program Files/R Files/cleaned_data.csv")
+df_encoded = pd.read_csv("./Data/anxiety.csv")
 df_encoded
 
 correlation_data = df_encoded[["SPIN_T", "GAD_T", "SWL_T"]]
