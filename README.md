@@ -31,6 +31,7 @@ The primary objective is to develop interactive visualizations and dashboards th
 The real-world applications of this project include early intervention, where educators and mental health professionals can leverage these insights to identify high-risk students and implement timely support measures; policy-making, which involves analyzing key contributing factors to student anxiety to inform and refine school policies and mental health programs; and resource allocation, ensuring that mental health resources and support systems are distributed optimally based on data-driven insights.
 
 # File Structure
+
 ```
 📂 Analysis_notebook
   ├── 📄 analysis.ipynb
@@ -76,6 +77,7 @@ The real-world applications of this project include early intervention, where ed
 ├── 📄 .gitignore
 └── 📄 README.md
 ```
+
 **1. Data:** It contains the original dataset (**anxiety.csv**), the output dataset (**cleaned_data.csv**) after the cleaning is completed and the secondary dataset (**StressLevelDataset.csv**).
 
 **2. Data Cleaning:** It is mainly used for data cleaning, which contains a PDF file with a detailed explanation of the data cleaning process and a dataset (cleaned_data) output after the cleaning is completed.
@@ -100,29 +102,33 @@ Install the required dependencies:
 
 ```python
 # Standard Libraries
-import csv
 import os
+import csv
 import numpy as np
 import pandas as pd
-import plotly as pl
 import matplotlib.pyplot as plt
 import seaborn as sns
+import plotly as pl
 
-# Scikit-Learn Components
-from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
-from sklearn.model_selection import train_test_split
+# Data Preprocessing & Transformation
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-from wordcloud import WordCloud
+from sklearn.model_selection import train_test_split
+from sklearn.decomposition import PCA
 
 # Machine Learning Models
-from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
+from sklearn.cluster import KMeans
 from sklearn.linear_model import LinearRegression, Ridge, LogisticRegression
+from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
 
-# Evaluation Metrics
+# Model Evaluation & Statistical Analysis
 import statsmodels.api as sm
-from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error  # Regression
-from sklearn.metrics import confusion_matrix, accuracy_score  # Classification
+from sklearn.metrics import (
+    r2_score, mean_squared_error, mean_absolute_error,  # Regression metrics
+    confusion_matrix, accuracy_score  # Classification metrics
+)
+
+# Visualization Tools
+from wordcloud import WordCloud
 ```
 
 # Third-party modules
