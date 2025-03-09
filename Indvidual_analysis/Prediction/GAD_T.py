@@ -3,7 +3,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestRegressor
 import pandas as pd
 
-df = pd.read_csv("C:/Program Files/R Files/cleaned_data.csv")
+df = pd.read_csv("./Data/anxiety.csv")
 df
 
 df_encoded = df.copy()
