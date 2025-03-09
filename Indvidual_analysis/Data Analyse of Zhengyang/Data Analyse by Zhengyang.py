@@ -16,7 +16,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("./anxiety.csv", encoding='ISO-8859-1')
+df = pd.read_csv("./Data/anxiety.csv", encoding='ISO-8859-1')
 
 corr = df.corr()
 mask = np.triu(np.ones_like(corr, dtype=bool))
