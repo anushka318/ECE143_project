@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-df_encoded = pd.read_csv("./cleaned_data.csv")
+df_encoded = pd.read_csv("./Data/anxiety.csv")
 df_encoded
 
 X = df_encoded.drop(columns=["GAD_T", "SWL_T", "SPIN_T"])
