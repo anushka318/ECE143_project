@@ -74,7 +74,7 @@ The real-world applications of this project include early intervention, where ed
     ├── 📄 categorize_data.py
     ├── 📄 visualization.py
 ├── 📄 .gitignore
-├── 📄 README.md
+└── 📄 README.md
 ```
 **1. Data:** It contains the original dataset (**anxiety.csv**), the output dataset (**cleaned_data.csv**) after the cleaning is completed and the secondary dataset (**StressLevelDataset.csv**).
 
