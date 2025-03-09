@@ -35,7 +35,7 @@ The real-world applications of this project include early intervention, where ed
 
 **2. Data Cleaning:** It is mainly used for data cleaning, which contains a PDF file with a detailed explanation of the data cleaning process and a dataset (cleaned_data) output after the cleaning is completed.
 
-**3. Indvidual Analysis:** It mainly includes the extended data analysis independently conducted by Zhengyang Zhou and Letong Wang, relating to getting familiar with the data and finding correlations bewteen factors. It includes prediction and influencing factor analysis of GAD_T, SPIN_T and SWL_T (PDF with explanations), analysis of the interaction of GAD_T, SPIN_T and SWL_T (PDF with explanations), and analysis of the impact of GAD_T, SPIN_T and SWL_T against gaming behaviors, age, gender and earnings (PDF with explanations).
+**3. Indvidual Analysis:** This mainly includes the extended data analysis independently conducted by Zhengyang Zhou and Letong Wang, relating to getting familiar with the data and finding correlations bewteen factors. It includes prediction and influencing factor analysis of GAD_T, SPIN_T and SWL_T (PDF with explanations), analysis of the interaction of GAD_T, SPIN_T and SWL_T (PDF with explanations), and analysis of the impact of GAD_T, SPIN_T and SWL_T against gaming behaviors, age, gender and earnings (PDF with explanations).
 
 **4. module:** This has the python modules used for visualization, and categorizing data.
 
