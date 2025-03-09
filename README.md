@@ -31,6 +31,35 @@ The primary objective is to develop interactive visualizations and dashboards th
 The real-world applications of this project include early intervention, where educators and mental health professionals can leverage these insights to identify high-risk students and implement timely support measures; policy-making, which involves analyzing key contributing factors to student anxiety to inform and refine school policies and mental health programs; and resource allocation, ensuring that mental health resources and support systems are distributed optimally based on data-driven insights.
 
 # File Structure
+```
+📂 Analysis_notebook
+  ├── 📄 analysis.ipynb
+📂 Data Cleaning
+  ├── 📄 Data Cleaning for Secondary Da...
+  ├── 📄 Data Cleaning.ipynb
+  ├── 📄 Data Cleaning.pdf
+  ├── 📄 Data Cleaning.py
+📂 Data
+  ├── 📄 StressLevelDataset.csv
+  ├── 📄 anxiety.csv
+  ├── 📄 cleaned_data.csv
+📂 Indvidual_analysis
+  ├── 📂Data Analyse of Letong
+    ├── 📂data analysis
+    ├── 📂data cleaning
+    ├── 📂prediction
+  ├── 📄
+  ├── 📄
+  ├── 📄
+  ├── 📄
+  ├── 📄
+```
+
+
+
+
+
+
 **1. Data:** It contains the original dataset (**anxiety.csv**), the output dataset (**cleaned_data.csv**) after the cleaning is completed and the secondary dataset (**StressLevelDataset.csv**).
 
 **2. Data Cleaning:** It is mainly used for data cleaning, which contains a PDF file with a detailed explanation of the data cleaning process and a dataset (cleaned_data) output after the cleaning is completed.
