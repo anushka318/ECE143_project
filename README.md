@@ -34,46 +34,46 @@ The real-world applications of this project include early intervention, where ed
 
 ```
 📂 Analysis_notebook
-  ├── 📄 analysis.ipynb
+  └── 📄 analysis.ipynb
 📂 Data Cleaning
   ├── 📄 Data Cleaning for Secondary Dataset.py
           ⋮
-  ├── 📄 Data Cleaning.py
+  └── 📄 Data Cleaning.py
 📂 Data
   ├── 📄 StressLevelDataset.csv
   ├── 📄 anxiety.csv
-  ├── 📄 cleaned_data.csv
+  └── 📄 cleaned_data.csv
 📂 Indvidual_analysis
   ├── 📂 Data Analyse of Letong
     ├── 📂 data analysis
       ├── 📄 data analysis.ipynb
-      ├── 📄 data analysis.py
+      └── 📄 data analysis.py
     ├── 📂 data cleaning
       ├── 📄 data cleaning.ipynb
       ├── 📄 data cleaning.py
-      ├── 📄 cleaned_data.csv
+      └── 📄 cleaned_data.csv
     ├── 📂 prediction
       ├── 📄 prediction_GAD.ipynb
               ⋮
-      ├── 📄 prediction_swl.py
+      └── 📄 prediction_swl.py
   ├── 📂 Data Analyse of Zhengyang
     ├── 📂 Visualization
     ├── 📄 Data Analyse by Zhengyang.ipynb
-    ├── 📄 Data Analyse by Zhengyang.py
+    └── 📄 Data Analyse by Zhengyang.py
   ├── 📂 Pridiction
     ├── 📄 Correlation between SPIN_T, GAD_T and SWL_T.py
             ⋮
-    ├── 📄 SWL_T.py
+    └──📄 SWL_T.py
   ├── 📂 images
     ├── 📄anxiety_age_employment.png
-    ├── 📄anxiety_satisfaction.png
+    └── 📄anxiety_satisfaction.png
 ├── 📂 Visualization
     ├── 📄 Age.png
             ⋮
-    ├── 📄 WordCloud.png
+    └── 📄 WordCloud.png
 ├── 📂 module
     ├── 📄 categorize_data.py
-    ├── 📄 visualization.py
+    └── 📄 visualization.py
 ├── 📄 .gitignore
 └── 📄 README.md
 ```
