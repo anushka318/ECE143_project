@@ -1,4 +1,4 @@
-# ECE143 Final Project Group 17
+# ECE143 Final Project Group 17 (Winter 25)
 
 # Student Anxiety Analysis and Prediction System
 
