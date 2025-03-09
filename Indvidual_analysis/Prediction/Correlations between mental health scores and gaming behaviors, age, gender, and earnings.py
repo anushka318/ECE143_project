@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
 
-df = pd.read_csv("./cleaned_data.csv")
+df = pd.read_csv("./Data/anxiety.csv.csv")
 df
 
 df_encoded = df.copy()
