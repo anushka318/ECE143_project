@@ -4,9 +4,21 @@ import seaborn as sns
 import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.datasets import make_blobs
- 
-
+## -----------------------------------------------------------##
+## The following file has functions to plot the visualizations ##
+## ------------------------------------------------------------##
 def plot_boxplot(data, x_col, y_col, filter_values=None, filter_col=None, showfliers=False, palette="coolwarm", title=None):
+ '''
+ Function to plot boxplots
+ Parameters:
+ data: to plot the data
+ x_col : X axis column
+ y_col ; Y axis column
+ filter_col : filtering the column data
+ showfliers : outliers displayed or not
+ palette : colours in plot
+ title : to title the plot
+ '''
     if filter_values is not None and filter_col is not None:
         data = data[data[filter_col].isin(filter_values)]
     
@@ -22,6 +34,12 @@ def plot_boxplot(data, x_col, y_col, filter_values=None, filter_col=None, showfl
 def plot_barplot(x, y, data, title, xlabel, ylabel):
     '''
     Plotting a barplot for the given data
+    Parameters:
+    x : Data to be plotted on X axis
+    y : Data to be plotted on Y axis
+    title : Title of the plot
+    xlabel: Label on X axis
+    ylabel : Label on Y axis
     '''
     plt.figure(figsize=(10, 6))
     sns.barplot(x=x, y=y, data=data)
@@ -33,6 +51,11 @@ def plot_barplot(x, y, data, title, xlabel, ylabel):
 def plot_scatter(x, y, data, title, xlabel, ylabel):
     '''
     Plotting a scatterplot for the given data
+    x : Data to be plotted on X axis
+    y : Data to be plotted on Y axis
+    title : Title of the plot
+    xlabel: Label on X axis
+    ylabel : Label on Y axis    
     '''
     plt.figure(figsize=(10, 6))
     sns.scatterplot(x=data[x], y=data[y])
@@ -44,6 +67,8 @@ def plot_scatter(x, y, data, title, xlabel, ylabel):
 def plot_heatmap(data, title):
     '''
     Plotting a heatmap for the given data
+    data : Data to be plotted as a heatmap
+    title : Title of the plot
     '''
     plt.figure(figsize=(10, 6))
     sns.heatmap(data, annot=True)
@@ -53,6 +78,10 @@ def plot_heatmap(data, title):
 def plot_countplot(x, data, title, xlabel):
     '''
     Plotting a countplot for the given data
+    x : Column for which count is to be plotted
+    data : Data to be plotted 
+    title : Title of the plot
+    xlabel: Label on X axis
     ''' 
     plt.figure(figsize=(10, 6))
     sns.countplot(x=x, data=data)
@@ -63,6 +92,10 @@ def plot_countplot(x, data, title, xlabel):
 def plot_piechart(labels, values, title):
     '''
     Plots a pie chart with the given labels and values.
+    Parameters:
+    labels :  Labels on the plot
+    values : Values for the piechart
+    title :
     '''
 
     colors = plt.cm.Set2(np.linspace(0, 1, len(values)))  # Generate colors dynamically
@@ -84,26 +117,4 @@ def plot_piechart(labels, values, title):
     # Add legend
     plt.legend(wedges, labels, title="Categories", loc="center left", bbox_to_anchor=(1, 0.5))
     plt.title(title)
-    plt.show()
-
-def kmeans_clustering(data, n_clusters, title):
-    '''
-    Perform K-means clustering and plot the results.
-    '''
-    # Perform K-means clustering
-    kmeans = KMeans(n_clusters=n_clusters, random_state=42)
-    data['Cluster'] = kmeans.fit_predict(data)
-
-    # Get cluster centers
-    centers = kmeans.cluster_centers_
-
-    # Plot the clustered data
-    plt.figure(figsize=(10, 6))
-    scatter = plt.scatter(data.iloc[:, 0], data.iloc[:, 1], c=data['Cluster'], cmap='viridis', marker='o')
-    plt.scatter(centers[:, 0], centers[:, 1], c='red', marker='X', s=200, label='Centroids')
-    plt.title(title)
-    plt.xlabel('Feature 1')
-    plt.ylabel('Feature 2')
-    plt.legend()
-    plt.colorbar(scatter)
     plt.show()
