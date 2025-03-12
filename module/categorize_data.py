@@ -4,6 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt 
 import os
 
+## --------------------------------------------##
+## The following functions help in categorizing the data for ease of analysis.##
+##----------------------------------------------##
 def anxiety_level(gad_score):
     '''
     Interpreting the GAD-7 score and categorizing as follows:
@@ -11,7 +14,10 @@ def anxiety_level(gad_score):
     5-9: Mild anxiety
     10-14: Moderate anxiety
     15-21: Severe anxiety
+    Parameters:
+    GAD score : Integer
     '''
+    assert isinstance(gad_score, int)
     if gad_score <= 4:
         return 'Minimal anxiety'   
     elif gad_score <= 9:    
@@ -28,7 +34,10 @@ def social_phobia_inventory(spin_score):
     21–30: Moderate social anxiety
     31–40: Severe social anxiety
     41–68: Very severe social anxiety
+    Parameter
+    spin_score : Integer
     '''
+    assert isinstance(spin_score, int)
     if spin_score <= 20:
         return 'No or mild social anxiety'
     elif spin_score <= 30:
@@ -47,7 +56,10 @@ def swl(swl_score):
     20–24: Neutral
     25–29: Slightly satisfied
     30–34: Satisfied
+    Parameter
+    swl_score : Integer
     '''
+    assert isinstance(swl_score, int)
     if swl_score <= 9:
         return 'Extremely dissatisfied'
     elif swl_score <= 14:
@@ -64,7 +76,10 @@ def categorize_employment(status):
     Categorizing employment status as follows:
     Part Time/ Full Time : Employed
     Else : Unemployed
+    Parameter:
+    status : String
     '''
+    assert isinstance(status, str)
     if status == 'Part Time' or status == 'Full Time':
         return 'Employed'
     else:
@@ -75,7 +90,10 @@ def categorize_age(age):
     Categorizing age as follows:
     <25 : Youth
     25 < age < 40 : Middle aged
+    Parameter:
+    age : Integer
     '''
+    assert isinstance(age, int)
     if age < 25:
         return 'Youth'
     elif age < 40:
@@ -90,7 +108,10 @@ def categorize_playstyles(playstyle):
     multiplayer  online  with stranger: M_0
     multiplayer  online  with online acquaintances or teammates : M_1
     multiplayer  online  with real life friends :M_2
+    Parameter:
+    playstyle : String
     '''
+    assert isinstance(playstyle, str)
     if playstyle == 'singleplayer':
         return 'S'
     elif playstyle == 'multiplayer  online  with stranger':
@@ -103,6 +124,7 @@ def categorize_playstyles(playstyle):
 def categorize_data(df):
     '''
     Categorizing the data based on the following columns:
+    df : Input dataframe
     '''
     df['Anxiety_level'] = df['GAD_T'].apply(anxiety_level)
     df['Social_phobia'] = df['SPIN_T'].apply(social_phobia_inventory) 
