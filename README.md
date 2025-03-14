@@ -34,7 +34,6 @@ The real-world applications of this project include early intervention, where ed
 ```
 📂 Analysis_notebook
   └── 📄 analysis.ipynb
-  └── 📄 analysis.py
 📂 Data Cleaning
   ├── 📄 Data Cleaning for Secondary Dataset.py
           ⋮
@@ -98,7 +97,7 @@ The real-world applications of this project include early intervention, where ed
 
 **1. Data cleaning.py /.ipynb:** In this data processing task, we systematically cleaned the raw data by identifying and removing inconsistencies, filling in missing values using appropriate imputation methods and standardizing the data to maintain uniformity across all variables. 
 
-**2. Analysis.py /.ipynb:** This notebook explores the relationships between various factors in a survey dataset. The analysis examines how gaming habits and personal characteristics correlate with mental health indicators such as Generalized Anxiety Disorder (GAD) scores, Satisfaction with Life (SWL), and Social Phobia Inventory (SPIN) scores. 
+**2. Analysis.ipynb:** This notebook explores the relationships between various factors in a survey dataset. The analysis examines how gaming habits and personal characteristics correlate with mental health indicators such as Generalized Anxiety Disorder (GAD) scores, Satisfaction with Life (SWL), and Social Phobia Inventory (SPIN) scores. 
 
 # Setup:
 Install the required dependencies:
@@ -140,8 +139,7 @@ The third-party modules we used include:
 # How To Run:
 **Note 1:** The output files (e.g. the cleaned data files and the plots) already exist in the repository, so the following steps are simply to describe the process as if they had not already been generated.
 
-**Note 2:** In the meantime, there are two ways to view the full Python code. You can choose to view the different sections of the files and run them step by step **(Highly recommended!!!)**. Or choose to run the **Analysis.py** to see all the data analysis at one time. However, it should be noted that due to the time constraints of the presentation, **Analysis.py** does not include all of our analysis results and only covers the key parts.
-
+**Note 2:** You can choose to view the different sections of the Analysis.ipynb file and run them step by step. 
   1. First, navigate to the **ECE143-Project** directory.
 
   2. Then Open the file **Data Cleaning**, run **Data cleaning.py**  to create cleaned and combined CSV files. You will get **cleaned_data.csv**.
