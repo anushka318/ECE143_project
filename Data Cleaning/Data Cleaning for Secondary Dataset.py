@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = "../Data/StressLevelDataset.csv"
+file_path = "./Data/StressLevelDataset.csv"
 df = pd.read_csv(file_path, encoding = "utf-8-sig", skipinitialspace = True)
 df
 
