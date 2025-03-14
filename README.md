@@ -150,7 +150,7 @@ The third-party modules we used include:
 
      You can find all the plots in the **Visualization** file.
 
-# Qustions, Results, Conlusion and Suggestions:
+# Questions addressed:
 Analysis has been conducted to answer the following questions:
 
 **1. What are some of the most popular games played by stdudents with higher anxiety disorder?**
@@ -176,3 +176,15 @@ Analysis has been conducted to answer the following questions:
 **12. How do health and academic factors correlate with mental health issues among studnets?**
 
 **13. What is the relative importance of features to see how they contribute to anxiety levels?**
+
+# Conclusion and Suggestions: 
+
+### **Conclusion**
+The analysis highlights that student anxiety is influenced by multiple factors, including academic performance, social support, environmental conditions, and personal habits. Key findings show that **higher anxiety levels correlate with lower life satisfaction**, and factors such as **sleep quality, teacher-student relationships, and future career concerns** play a critical role in determining stress levels. Additionally, **noisy environments, lack of safety, and unmet basic needs** significantly contribute to increased anxiety among students. 
+
+### **Suggestions to Reduce Stress and Anxiety Among Students**
+ 1. Improve Academic Support Systems
+2. Enhance Mental Health Resources
+3. Address Environmental and Lifestyle Factors
+4. Promote Healthy Social Habits
+5. Manage Academic and Career Pressures
