@@ -34,6 +34,7 @@ The real-world applications of this project include early intervention, where ed
 ```
 📂 Analysis_notebook
   └── 📄 analysis.ipynb
+  └── 📄 analysis.py
 📂 Data Cleaning
   ├── 📄 Data Cleaning for Secondary Dataset.py
           ⋮
@@ -88,7 +89,7 @@ The real-world applications of this project include early intervention, where ed
 
 **4. module:** This has the python modules used for visualization, and categorizing data.
 
-**5. Analysis notebook:** The notebook with final analysis.
+**5. Analysis notebook:** The notebook with final analysis. The same analysis file is present in .ipynb and .py formats.
 
 **6. Visualization:** This has the images of all the visualizations from the data analysis.
 
@@ -97,7 +98,7 @@ The real-world applications of this project include early intervention, where ed
 
 **1. Data cleaning.py /.ipynb:** In this data processing task, we systematically cleaned the raw data by identifying and removing inconsistencies, filling in missing values using appropriate imputation methods and standardizing the data to maintain uniformity across all variables. 
 
-**2. Analysis.py /.ipynb:** This  Notebook explores the relationships between various factors in a survey dataset. The analysis examines how gaming habits and personal characteristics correlate with mental health indicators such as Generalized Anxiety Disorder (GAD) scores, Satisfaction with Life (SWL), and Social Phobia Inventory (SPIN) scores. Specifically, the notebook investigates the impact of games played, degree level, area of residence, and gaming playstyle on these psychological factors.
+**2. Analysis.py /.ipynb:** This notebook explores the relationships between various factors in a survey dataset. The analysis examines how gaming habits and personal characteristics correlate with mental health indicators such as Generalized Anxiety Disorder (GAD) scores, Satisfaction with Life (SWL), and Social Phobia Inventory (SPIN) scores. 
 
 # Setup:
 Install the required dependencies:
@@ -152,32 +153,26 @@ The third-party modules we used include:
 # Qustions, Results, Conlusion and Suggestions:
 Analysis has been conducted to answer the following questions:
 
-**1. What are some of the most popular games played by std?**
+**1. What are some of the most popular games played by stdudents with higher anxiety disorder?**
 
 **2. What is the relationship between GAD and Satisfaction with Life (SWL)?**
 
-A negative correlation is observed, indicating that higher anxiety levels are associated with lower life satisfaction.
-
 **3. Does degree level impact Satisfaction with Life (SWL)?**
-
-SWL score does seem to be higher for people witha PhD/Master's degree.
 
 **4. How does area of residence affect the hours of gaming?**
 
 **5. How does gaming playstyle relate to Social Phobia Inventory (SPIN) scores?**
 
-Solo gamers tend to have higher SPIN scores, suggesting a possible link between social anxiety and a preference for single-player games.
-
-**6. What is the distribution of gaming hours across different GAD levels?**
-
-Individuals with higher GAD scores show mixed gaming habits, with no clear trend indicating whether gaming increases or reduces anxiety.
-
 **7. Do people with higher SPIN scores have different satisfaction with life (SWL)?**
-
-A negative relationship is observed; those with higher social anxiety (SPIN) tend to have lower satisfaction with life.
 
 **8. How do SPIN, SWL, and GAD scores vary with employmen status?**
 
 **9. How does anxiety and satisfaction with life as we consider indviduals from different age groups?**
 
-**10. How do all these factors correlate with each other? Basically,  where do we focus on for reduces GAD, SPIN and higher SWL scores?**
+**10. How do all these factors correlate with each other?**
+
+**11. How do anxiety scores relate with academic performance and social support?**
+
+**12. How do health and academic factors correlate with mental health issues among studnets?**
+
+**13. What is the relative importance of features to see how they contribute to anxiety levels?**
