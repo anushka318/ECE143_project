@@ -8,17 +8,17 @@ from sklearn.datasets import make_blobs
 ## The following file has functions to plot the visualizations ##
 ## ------------------------------------------------------------##
 def plot_boxplot(data, x_col, y_col, filter_values=None, filter_col=None, showfliers=False, palette="coolwarm", title=None):
- '''
- Function to plot boxplots
- Parameters:
- data: to plot the data
- x_col : X axis column
- y_col ; Y axis column
- filter_col : filtering the column data
- showfliers : outliers displayed or not
- palette : colours in plot
- title : to title the plot
- '''
+    '''
+    Function to plot boxplots
+    Parameters:
+    data: to plot the data
+    x_col : X axis column
+    y_col ; Y axis column
+    filter_col : filtering the column data
+    showfliers : outliers displayed or not
+    palette : colours in plot
+    title : to title the plot
+    '''
     if filter_values is not None and filter_col is not None:
         data = data[data[filter_col].isin(filter_values)]
     

@@ -37,7 +37,6 @@ def social_phobia_inventory(spin_score):
     Parameter
     spin_score : Integer
     '''
-    assert isinstance(spin_score, int)
     if spin_score <= 20:
         return 'No or mild social anxiety'
     elif spin_score <= 30:
@@ -114,7 +113,7 @@ def categorize_playstyles(playstyle):
     assert isinstance(playstyle, str)
     if playstyle == 'singleplayer':
         return 'S'
-    elif playstyle == 'multiplayer  online  with stranger':
+    elif playstyle == 'multiplayer  online  with strangers':
         return 'M_0'
     elif playstyle == 'multiplayer  online  with online acquaintances or teammates':
         return 'M_1'

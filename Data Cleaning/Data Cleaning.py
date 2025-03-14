@@ -26,9 +26,11 @@ df.drop(['S. No.' , 'Timestamp'] , axis = 1 , inplace = True)
 
 df.shape
 
+df['Hours'].fillna(0, inplace=True)
+df['streams'].fillna(0, inplace=True)
 df['Hours_streams'] = df['Hours'] + df['streams']
-df.drop(  ((df[df['Hours_streams'] > 115].index) | (df[df['Hours_streams']==0].index)),
-                                             axis=0,inplace=True)
+df.drop(df[(df['Hours_streams'] > 115) | (df['Hours_streams'] == 0)].index, axis=0, inplace=True)
+
 df.GADE.value_counts()
 
 df.GADE.fillna(df.GADE.value_counts().index[1] , inplace=True) #1

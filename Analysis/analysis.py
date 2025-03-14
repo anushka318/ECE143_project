@@ -11,7 +11,6 @@
 
 
 #Installing the dependencies
-get_ipython().system('pip install wordcloud')
 import csv
 import pandas as pd
 import numpy as np  
@@ -39,7 +38,7 @@ import visualization as vz
 #Reading the primary data csv
 current_directory = os.getcwd()
 print(current_directory)
-df = pd.read_csv("./../Data/cleaned_data.csv", encoding = 'ISO-8859-1')
+df = pd.read_csv("./Data/cleaned_data.csv", encoding = 'ISO-8859-1')
 
 
 # In[29]:
