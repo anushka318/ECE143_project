@@ -73,7 +73,7 @@ The real-world applications of this project include early intervention, where ed
 ├── 📂 Visualization
     ├── 📄 Age.png
             ⋮
-    └── 📄 WordCloud.png
+    └── 📄 spinvsplaystyle.png
 ├── 📂 module
     ├── 📄 categorize_data.py
     └── 📄 visualization.py
